@@ -1,0 +1,68 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    background-color: #FFF; /* White background for the body */
+    color: #404040; /* Foreground color */
+    font-family: Georgia, Garamond, serif; /* Font family for text */
+    font-size: 11pt;
+}
+/* Heading styles */
+
+h1 {
+    text-align: center;
+    font-size: 22pt;
+    font-weight: bold;
+    color: #A4A400;/* Headings' foreground color */
+    background-color: #F0F0F0;/* Headings' background color */
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; /* Font family for headings */
+    text-decoration: underline;
+}
+
+h2, h3, h4 {
+    font-size: 18pt;
+    font-weight: normal;
+    color: #A4A400;
+    background-color: #F0F0F0;
+    text-decoration: underline;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif; /* Font family for headings */
+}
+
+/* Link styles */
+a {
+    color: #A4A400;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tooltip styles for abbreviations */
+abbr[title] {
+    border-bottom: 1px dotted #000;
+    cursor: help;
+}
+
+/* Strikethrough and replacement styles */
+del {
+    text-decoration: line-through;
+}
+/* Copyright notice styles */
+footer {
+    font-family: monospace;
+    white-space: pre;
+}
+
+footer p {
+    margin-left: 2em;
+}
+
+footer p:nth-child(3) {
+    margin-left: 4em;
+}

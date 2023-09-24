@@ -4,16 +4,57 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    text-align: center;
+    box-sizing: border-box;
+    margin: 20px auto; /* Center horizontally and add 20px margin on top and bottom */
+    max-width: 800px; /* Set a maximum width for the content */
 
+}
+main {
+    margin: 20px auto; /* Center horizontally and add 20px margin on top and bottom */
+    max-width: 800px; /* Set a maximum width for the content */
+    padding: 20px; /* Add padding to create space around the content */
+    box-sizing: border-box;
+}
 /* Body styles */
 body {
     background-color: #FFF; /* White background for the body */
     color: #404040; /* Foreground color */
     font-family: Georgia, Garamond, serif; /* Font family for text */
-    font-size: 11pt;
+    font-size: 9pt;
+    align-items: center;
 }
 /* Heading styles */
+img{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+ul{
+    padding-bottom: 8px;
+}
+hr{
+    margin-bottom: 8px;
+}
+div > pre:nth-child(1) {
+    background-color: lemonchiffon;
+    padding: 10px;
+    margin-bottom: 8px;
+}
 
+/* Style the second pre tag with a different background color */
+div > pre:nth-child(2) {
+    background-color: lemonchiffon;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+
+/* Style the third pre tag with a different background color */
+div > pre:nth-child(3) {
+    background-color: lemonchiffon;
+    padding: 10px;
+    margin-bottom: 8px;
+}
 h1 {
     text-align: center;
     font-size: 22pt;
@@ -25,7 +66,7 @@ h1 {
 }
 
 h2, h3, h4 {
-    font-size: 18pt;
+    font-size: 9pt;
     font-weight: normal;
     color: #A4A400;
     background-color: #F0F0F0;
@@ -43,12 +84,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Tooltip styles for abbreviations */
-abbr[title] {
-    border-bottom: 1px dotted #000;
-    cursor: help;
-}
-
 /* Strikethrough and replacement styles */
 del {
     text-decoration: line-through;
@@ -57,6 +92,7 @@ del {
 footer {
     font-family: monospace;
     white-space: pre;
+    text-align: center;
 }
 
 footer p {
